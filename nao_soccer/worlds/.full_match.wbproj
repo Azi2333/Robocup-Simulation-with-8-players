@@ -1,0 +1,25 @@
+Webots Project File version R2023b
+perspectives: 000000ff00000000fd0000000200000001000003fe00000314fc0200000001fb0000001400540065007800740045006400690074006f0072010000001d000003140000009200ffffff0000000300000a00000001e7fc0100000001fb0000001a0043006f006e0073006f006c00650041006c006c0041006c006c010000000000000a000000006900ffffff000006000000031400000001000000020000000100000008fc00000000
+simulationViewPerspectives: 000000ff00000001000000020000013e000007a40100000002010000000100
+sceneTreePerspectives: 000000ff00000001000000030000002600000479000000fa0100000002010000000200
+maximizedDockId: -1
+centralWidgetVisible: 1
+orthographicViewHeight: 1
+textFiles: 1 "controllers/striker_fixed_goal/striker_fixed_goal.m" "controllers/defender_controller/defender_controller.m" "controllers/striker_opponent/striker_opponent.m" "controllers/opponent_defender/opponent_defender.m"
+consoles: Console:All:All
+renderingDevicePerspectives: Defender1A:CameraBottom;1;0.895833;0;0
+renderingDevicePerspectives: Defender1A:CameraTop;1;0.895833;0;0
+renderingDevicePerspectives: Defender1B:CameraBottom;1;0.895833;0;0
+renderingDevicePerspectives: Defender1B:CameraTop;1;0.895833;0;0
+renderingDevicePerspectives: Defender2A:CameraBottom;1;0.895833;0;0
+renderingDevicePerspectives: Defender2A:CameraTop;1;0.895833;0;0
+renderingDevicePerspectives: Defernder2B:CameraBottom;1;0.895833;0;0
+renderingDevicePerspectives: Defernder2B:CameraTop;1;0.895833;0;0
+renderingDevicePerspectives: GoalkeeperA:CameraBottom;1;0.895833;0;0
+renderingDevicePerspectives: GoalkeeperA:CameraTop;1;0.895833;0;0
+renderingDevicePerspectives: GoalkeeperB:CameraBottom;1;1;0;0
+renderingDevicePerspectives: GoalkeeperB:CameraTop;1;1;0;0
+renderingDevicePerspectives: StrikerA:CameraBottom;1;0.895833;0;0
+renderingDevicePerspectives: StrikerA:CameraTop;1;0.895833;0;0
+renderingDevicePerspectives: StrikerB:CameraBottom;1;0.895833;0;0
+renderingDevicePerspectives: StrikerB:CameraTop;1;0.895833;0;0

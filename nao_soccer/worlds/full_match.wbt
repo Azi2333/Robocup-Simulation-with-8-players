@@ -1,0 +1,80 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/samples/contests/robocup/protos/RobocupSoccerField.proto"
+EXTERNPROTO "../protos/Nao.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/balls/protos/RobocupSoccerBall.proto"
+
+WorldInfo {
+  basicTimeStep 64
+  FPS 15
+}
+Viewpoint {
+  orientation -0.2791585852857315 -0.22243505234556463 0.9341269355656623 4.421291684956017
+  position 3.200112976833622 11.6265577647074 8.739512605862709
+}
+TexturedBackground {
+}
+RobocupSoccerField {
+  translation -0.03 0 0
+  size "kid"
+}
+Nao {
+  translation 1.15 -0.130003 0.334
+  rotation 0 0 1 3.14159
+  name "StrikerA"
+  version "V5 (blue)"
+  controller "striker_opponent"
+  cameraWidth 640
+  cameraHeight 480
+}
+Nao {
+  translation 1.99803 1.19 0.352139
+  rotation -0.002924869188522823 -7.516077914735568e-07 0.9999957225606844 3.14159
+  name "Defender1A"
+  version "V5 (blue)"
+  controller "defender_controller"
+  cameraWidth 640
+  cameraHeight 480
+}
+Nao {
+  translation 3.03 -1.18001 0.334
+  rotation 0 0 1 3.14159
+  name "Defender2A"
+  version "V5 (blue)"
+  controller "defender_controller"
+  cameraWidth 640
+  cameraHeight 480
+}
+Nao {
+  translation -0.991863 0.915619 0.345245
+  rotation -0.49632295593917974 0.1394059876243037 0.8568719239316268 0.00965448
+  name "StrikerB"
+  customColor [
+    1 0 0
+  ]
+  controller "striker_fixed_goal"
+  cameraWidth 640
+  cameraHeight 480
+}
+TexturedBackgroundLight {
+}
+RobocupSoccerBall {
+  translation 0.0640136 -0.0169102 0.106858
+  rotation -0.013761504542986748 -0.999573329981971 -0.025763908505254243 1.48487
+}
+Nao {
+  translation -1.63 -0.97 0.334
+  name "Defender1B"
+  controller "striker_fixed_goal"
+  cameraWidth 640
+  cameraHeight 480
+}
+Nao {
+  translation -2.5 0.16 0.334
+  name "Defernder2B"
+  controller "opponent_defender"
+  cameraWidth 640
+  cameraHeight 480
+}

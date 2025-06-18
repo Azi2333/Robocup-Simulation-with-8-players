@@ -1,0 +1,134 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/samples/contests/robocup/protos/RobocupSoccerField.proto"
+EXTERNPROTO "../protos/Nao.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/balls/protos/RobocupSoccerBall.proto"
+
+WorldInfo {
+  FPS 15
+}
+Viewpoint {
+  orientation -0.5773502691896258 0.5773502691896258 0.5773502691896258 2.0944
+  position -8.693975583180755e-16 -1.738795116636151e-15 15.66167407871242
+}
+TexturedBackground {
+}
+RobocupSoccerField {
+  size "kid"
+}
+Nao {
+  hidden rotation_22 0 0.9999999999999999 0 0.9599999990699635
+  hidden rotation_23 0 1 0 0.9599999996037961
+  hidden rotation_25 0 1 0 0.9599999990700404
+  hidden rotation_26 0 1 0 0.9599999996037726
+  hidden rotation_34 0 1 0 0.9599999990698991
+  hidden rotation_35 0 1 0 0.9599999996040943
+  hidden rotation_37 0 0.9999999999999999 0 0.9599999990703967
+  hidden rotation_38 0 0.9999999999999999 0 0.9599999996039462
+  translation 0.834097 -0.684922 0.341465
+  rotation 0.003342637994935242 -5.7313115695610725e-06 0.9999944133535882 3.1384499520777775
+  name "Striker OP1(2)"
+  version "V4 (blue)"
+  controller "striker_opponent"
+  cameraWidth 640
+  cameraHeight 480
+}
+Nao {
+  hidden rotation_22 0 1 0 0.9599999996888843
+  hidden rotation_23 0 1 0 0.9599999998678416
+  hidden rotation_25 0 1 0 0.9599999996888544
+  hidden rotation_26 0 1 0 0.9599999998679368
+  hidden rotation_34 0 0.9999999999999999 0 0.9599999996888333
+  hidden rotation_35 0 0.9999999999999999 0 0.9599999998678618
+  hidden rotation_37 0 1 0 0.9599999996888477
+  hidden rotation_38 0 1 0 0.9599999998679292
+  translation 3.60245 -1.18001 0.333225
+  rotation 0.003663515843174244 -2.8439128465665474e-08 0.9999932893033163 3.1415900164653574
+  name "Back_den"
+  version "V5 (blue)"
+  controller "backfield_defender"
+  cameraWidth 640
+  cameraHeight 480
+}
+Nao {
+  hidden rotation_22 0 0.9999999999999999 0 0.9599999995333273
+  hidden rotation_23 0 1 0 0.9599999998017623
+  hidden rotation_25 0 1 0 0.9599999995332815
+  hidden rotation_26 0 0.9999999999999999 0 0.9599999998019056
+  hidden rotation_34 0 1 0 0.9599999995332498
+  hidden rotation_35 0 1 0 0.9599999998017926
+  hidden rotation_37 0 0.9999999999999999 0 0.9599999995332714
+  hidden rotation_38 0 1 0 0.9599999998018935
+  translation 1.68239 1.45999 0.339086
+  rotation 0.003663549378749706 -2.8472150343110018e-08 0.9999932891804569 3.1415900043824365
+  name "Defender_forward"
+  version "V5 (blue)"
+  controller "forward_defender"
+  cameraWidth 640
+  cameraHeight 480
+}
+Nao {
+  hidden rotation_22 0 1 0 0.9599999956466391
+  hidden rotation_23 0 1 0 0.959999998152474
+  hidden rotation_25 0 0.9999999999999999 0 0.9599999956466843
+  hidden rotation_26 0 1 0 0.9599999981524726
+  hidden rotation_29 0 -1 0 0.959999999553202
+  hidden rotation_34 0 1 0 0.9599999956442277
+  hidden rotation_35 0 1 0 0.9599999981503535
+  hidden rotation_37 0 1 0 0.9599999956441396
+  hidden rotation_38 0 0.9999999999999999 0 0.9599999981506636
+  hidden rotation_41 0 -1 0 0.9599999995530106
+  translation -3.0319600242136606 0.11282778739031878 0.34104348036673204
+  rotation -0.0009910736898052599 -0.9599623573931475 -0.2801272749325428 0.0074417422573453545
+  name "Defender_OP_back"
+  version "V4 (orange)"
+  controller "opponent_backfield"
+  cameraWidth 640
+  cameraHeight 480
+}
+Nao {
+  hidden rotation_22 0 1 0 0.9599999976654281
+  hidden rotation_23 0 1 0 0.9599999990091697
+  hidden rotation_25 0 1 0 0.9599999976660007
+  hidden rotation_26 0 1 0 0.9599999990096639
+  hidden rotation_29 0 -1 0 0.9599999997605153
+  hidden rotation_34 0 0.9999999999999999 0 0.959999997665807
+  hidden rotation_35 0 0.9999999999999999 0 0.9599999990094673
+  hidden rotation_37 0 1 0 0.9599999976653449
+  hidden rotation_38 0 0.9999999999999999 0 0.9599999990089432
+  hidden rotation_41 0 -1 0 0.9599999997605769
+  translation -2.39119 1.73186 0.337479
+  rotation -0.001080872227620145 -0.9536462158933429 -0.30092810873618125 0.007492050928044789
+  name "Striker OP1"
+  version "V4 (orange)"
+  controller "striker_fixed_goal"
+  cameraWidth 640
+  cameraHeight 480
+}
+Nao {
+  hidden rotation_22 0 0.9999999999999999 0 0.95999999906808
+  hidden rotation_23 0 1 0 0.9599999996047641
+  hidden rotation_25 0 1 0 0.9599999990683132
+  hidden rotation_26 0 0.9999999999999999 0 0.9599999996049242
+  hidden rotation_29 0 -1 0 0.959999999889246
+  hidden rotation_34 0 1 0 0.9599999990683555
+  hidden rotation_35 0 1 0 0.9599999996051031
+  hidden rotation_37 0 1 0 0.9599999990681511
+  hidden rotation_38 0 1 0 0.959999999604753
+  hidden rotation_41 0 -1 0 0.9599999998892503
+  translation -1.2722057122423045 -1.110308799319308 0.3412204132924908
+  rotation -0.0010328312388499224 -0.9473934179475768 -0.3200697500377691 0.007533684332114675
+  name "Striker OP1(1)"
+  version "V4 (orange)"
+  controller "striker_fixed_goal"
+  cameraWidth 640
+  cameraHeight 480
+}
+TexturedBackgroundLight {
+}
+RobocupSoccerBall {
+  translation 0.11724750350388088 0.08340703861439511 0.07935646400000003
+  rotation -0.45875630496243547 -0.7609767553059603 -0.45875595967924543 1.840612997637442
+}

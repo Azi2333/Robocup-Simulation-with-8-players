@@ -1,0 +1,31 @@
+Webots Project File version R2023b
+perspectives: 000000ff00000000fd0000000300000000000001ca0000039ffc0200000001fb00000012005300630065006e0065005400720065006501000000000000039f0000000000000000000000010000039700000436fc0200000001fb0000001400540065007800740045006400690074006f0072010000001e000004360000009400ffffff0000000300000a0000000163fc0100000002fb0000000e0043006f006e0073006f006c006501000001d0000005b00000000000000000fb0000001a0043006f006e0073006f006c00650041006c006c0041006c006c010000000000000a000000006900ffffff000006670000043600000004000000040000000100000008fc00000000
+simulationViewPerspectives: 000000ff00000001000000020000016c000004a00100000002010000000101
+sceneTreePerspectives: 000000ff000000010000000300000026000000c0000000fa0100000002010000000201
+maximizedDockId: -1
+centralWidgetVisible: 1
+projectionMode: PERSPECTIVE
+orthographicViewHeight: 1
+textFiles: 2 "protos/Nao.proto" "controllers/goalkeeper_controller/goalkeeper_controller.m" "controllers/striker_fixed_goal/striker_fixed_goal.m" "controllers/striker_opponent/striker_opponent.m" "controllers/striker/striker.m"
+globalOptionalRendering: CoordinateSystem
+consoles: Console:All:All
+renderingDevicePerspectives: Defender1A:CameraBottom;1;0.895833;0;0
+renderingDevicePerspectives: Defender1A:CameraTop;1;0.895833;0;0
+renderingDevicePerspectives: Defender1B:CameraBottom;1;1;0;0
+renderingDevicePerspectives: Defender1B:CameraTop;1;1;0;0
+renderingDevicePerspectives: Defender2A:CameraBottom;1;0.895833;0;0
+renderingDevicePerspectives: Defender2A:CameraTop;1;0.895833;0;0
+renderingDevicePerspectives: Defernder2B:CameraBottom;1;1;0;0
+renderingDevicePerspectives: Defernder2B:CameraTop;1;1;0;0
+renderingDevicePerspectives: GoalkeeperA:CameraBottom;1;0.895833;0;0
+renderingDevicePerspectives: GoalkeeperA:CameraTop;1;0.895833;0;0
+renderingDevicePerspectives: NAO(1):CameraBottom;1;1;0;0
+renderingDevicePerspectives: NAO(1):CameraTop;1;1;0;0
+renderingDevicePerspectives: NAO(2):CameraBottom;1;1;0;0
+renderingDevicePerspectives: NAO(2):CameraTop;1;1;0;0
+renderingDevicePerspectives: NAO(3):CameraBottom;1;1;0;0
+renderingDevicePerspectives: NAO(3):CameraTop;1;1;0;0
+renderingDevicePerspectives: NAO:CameraBottom;1;1;0;0
+renderingDevicePerspectives: NAO:CameraTop;1;1;0;0
+renderingDevicePerspectives: StrikerB:CameraBottom;1;0.895833;0;0
+renderingDevicePerspectives: StrikerB:CameraTop;1;0.895833;0;0
