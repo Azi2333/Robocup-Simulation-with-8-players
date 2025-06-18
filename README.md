@@ -2,11 +2,12 @@
 
 A multi-agent robot soccer system built in Webots. Three roles (Striker, Defender, Goalkeeper) are implemented with individual controllers and motion strategies. Defenders are split into forward and backfield units for zone control.
 
-Pre-requisites
-Webots
-Matlab
-MATLAB Support for MinGW-w64 C/C++/Fortran Compiler https://uk.mathworks.com/matlabcentral/fileexchange/52848-matlab-support-for-mingw-w64-c-c-fortran-compiler
-Matlab Toolboxes: Computer Vision, Deep Learning Toolbox, Computer Vision Toolbox Model for YOLO v4 Object Detection
+## Pre-requisites
+- Webots
+- Matlab
+- MATLAB Support for MinGW-w64 C/C++/Fortran Compiler https://uk.mathworks.com/matlabcentral/fileexchange/52848-matlab-support-for-mingw-w64-c-c-fortran-compiler
+- Matlab Toolboxes: Computer Vision, Deep Learning Toolbox, Computer Vision Toolbox Model for YOLO v4 Object Detection
+
 ---
 
 ## 🎯 What It Does
