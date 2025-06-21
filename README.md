@@ -42,4 +42,4 @@ goalkeeper_controller/    # Goalkeeper logic
 README.md
 
 ## 🖼️ Demo
-👉 [https://www.bilibili.com/video/BV1ZkMszuEdw/?spm_id_from=333.1387.upload.video_card.click](https://www.bilibili.com/video/BV1FiNLzkERb/?vd_source=c1da2cac35f64bc74121091ae2ad3517)
+👉 https://www.bilibili.com/video/BV1ZkMszuEdw/?spm_id_from=333.1387.upload.video_card.click](https://www.bilibili.com/video/BV1FiNLzkERb/?vd_source=c1da2cac35f64bc74121091ae2ad3517)
