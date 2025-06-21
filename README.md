@@ -33,7 +33,7 @@ Each robot runs an independent FSM and reacts to local sensing.
 
 ## 🗂 Structure
 
-```bash
+bash
 striker_opponent/         # Striker controller
 forward_defender/         # Midline defender
 backfield_defender/       # Defensive-zone defender
@@ -41,5 +41,10 @@ goalkeeper_controller/    # Goalkeeper logic
 *.motion                  # All NAO movement primitives
 README.md
 
+---
+
 ## 🖼️ Demo
-👉 https://www.bilibili.com/video/BV1ZkMszuEdw/?spm_id_from=333.1387.upload.video_card.click](https://www.bilibili.com/video/BV1FiNLzkERb/?vd_source=c1da2cac35f64bc74121091ae2ad3517)
+
+📹 *A detailed explanation video was recorded for this project.*  
+👉 [https://www.bilibili.com/video/BV1ZkMszuEdw/?spm_id_from=333.1387.upload.video_card.click
+](https://www.bilibili.com/video/BV1FiNLzkERb/?vd_source=c1da2cac35f64bc74121091ae2ad3517)
